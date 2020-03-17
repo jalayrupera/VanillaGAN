@@ -3,9 +3,5 @@ torch==0.3.0post4
 tensorflow==2.0.1
 tensorboardX=0.8
 numpy==1.13.3
-<<<<<<< HEAD
 matplotlib==2.1.1
-=======
-matplotlib==2.0.1
->>>>>>> 47d8dfbe1176b88049cd1679c09d802ad56c5947
 jupyter==1.0.0
