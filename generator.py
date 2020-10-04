@@ -27,6 +27,8 @@ class Generator(torch.nn.Module):
         self.out = nn.Sequential(
             nn.Linear(1024, n_out),
             nn.Tanh()
+            nn.Linear(1024,n_out)
+            nn.Tanh()
         )
 
     def forward(self, x):
